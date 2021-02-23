@@ -695,6 +695,13 @@ a {
   background-position: initial !important;
   background-repeat: no-repeat !important;
 }
+@media (max-width: 900px){
+  .cid-soFoyD5nVg{
+    padding-bottom: 0rem !important;
+    padding-top: 8rem !important;
+
+  }
+}
 @media (max-width: 900px) {
   .cid-soFoyD5nVg .letrasperson {
     font-size: 43px !important;
@@ -765,10 +772,8 @@ a {
   }
 }
 .cid-soFoyD5nVg .image-wrapper img {
-  width: 82%;
+  width: 100%;
   object-fit: cover;
-  margin: auto;
-  
 }
 @media (min-width: 992px) {
   .cid-soFoyD5nVg .text-wrapper {
@@ -1175,16 +1180,32 @@ a {
 }
 .cid-soFot0dyNH {
   padding-top: 4rem;
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
   background-image: url("https://clientenogit.github.io/altaecommerce/banners/fundo-inferior.png");
 }
 @media (max-width: 900px){
   .cid-soFot0dyNH{
     padding-bottom: 0rem  !important;
+
   }
 }
 .cid-soFot0dyNH .astronauta {
   width: 79%!important;
+}
+@media (max-width: 900px) {
+  .cid-soFot0dyNH .cid-soFot0dyNH {
+    padding-bottom: 0px !important;
+  }
+  .cid-soFot0dyNH .astronauta {
+    width: 64%!important;
+    margin: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-left: auto;
+  }
+}
+.cid-soFot0dyNH .divinha {
+  z-index: 1;
 }
 .cid-soFot0dyNH .row {
   align-items: center;
@@ -1192,20 +1213,11 @@ a {
 @media (max-width: 991px) {
   .cid-soFot0dyNH .image-wrapper {
     padding: 1rem;
-    z-index: 1;
   }
 }
 @media (min-width: 992px) {
   .cid-soFot0dyNH .text-wrapper {
     padding: 0 2rem;
-  }
-}
-@media (max-width: 900px) {
-  .cid-soFot0dyNH .astronauta {
-    width: 64%!important;
-    margin-right: auto;
-    margin-top: auto;
-    margin-left: auto;
   }
 }
 .cid-soFot0dyNH .letrasperson {
@@ -1275,30 +1287,6 @@ a {
 .cid-soFot0dyNH .mbr-section-btn {
   color: #ffffff;
 }
-.cid-soFot0dyNH .custom-shape-divider-bottom-1613262833 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-.cid-soFot0dyNH .custom-shape-divider-bottom-1613262833 svg {
-  position: relative;
-  display: block;
-  width: calc(119.3%);
-  height: 110px;
-}
-.cid-soFot0dyNH .custom-shape-divider-bottom-1613262833 .shape-fill {
-  fill: #FFFFFF;
-}
-@media (max-width: 767px) {
-  .cid-soFot0dyNH .custom-shape-divider-bottom-1613262833 svg {
-    width: calc(223.3%);
-    height: 50px;
-  }
-}
 .cid-soXKfepxBB {
   padding-top: 7rem;
   padding-bottom: 4rem;
@@ -1323,15 +1311,21 @@ a {
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
-  background-image: url('https://clientenogit.github.io/altaecommerce/banners/fundo-formar-especialista-digital.png');
+  background-image: url('https://richardlp1.github.io/banner/fundo-formar-especialista-digital.png');
   background-position: top right;
   background-repeat: no-repeat;
   box-shadow: 0px 0px 36px 2px #7826ff;
 }
-@media (max-width: 900px){
-  .cid-soXKfepxBB .card-wrapper{
-    width: 73% !important;
-    
+@media (max-width: 900px) {
+  .cid-soXKfepxBB .card-wrapper {
+    width: 79% !important;
+  }
+  .cid-soXKfepxBB .cardinh {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .cid-soXKfepxBB .letrascertas {
+    line-break: anywhere !important;
   }
 }
 .cid-soXKfepxBB .zoom {
@@ -1344,13 +1338,13 @@ a {
   transform: scale(1.06);
 }
 .cid-soXKfepxBB .legend {
-  background-image: url('https://clientenogit.github.io/altaecommerce/banners/fundo-formar-especialista-digital.png') !important;
+  background-image: url('https://richardlp1.github.io/banner/fundo-formar-especialista-digital.png') !important;
   background-position: center right;
   background-repeat: no-repeat;
   background: linear-gradient(139deg, #ff7e52 4%, #7826ff 100%) !important;
 }
 .cid-soXKfepxBB .legende {
-  background-image: url('https://clientenogit.github.io/altaecommerce/banners/fundo-formar-especialista-digital.png') !important;
+  background-image: url('https://richardlp1.github.io/banner/fundo-formar-especialista-digital.png') !important;
   background-position: bottom right;
   background-repeat: no-repeat;
   background: linear-gradient(46deg, #ff7e52 1%, #7826ff 100%) !important;
@@ -1369,11 +1363,6 @@ a {
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
-}
-@media (max-width: 900px) {
-  .cid-soXKfepxBB .letrascertas {
-    line-break: anywhere !important;
-  }
 }
 .cid-soXKfepxBB .card-title,
 .cid-soXKfepxBB .card-box {
@@ -1395,7 +1384,7 @@ a {
 }
 @media (max-width: 900px){
   .cid-spqlXB5WXB{
-    display: none !important;
+    display: none !important
   }
 }
 .cid-spqlXB5WXB .mbr-overlay {
@@ -1552,20 +1541,20 @@ a {
   color: #ffffff;
   text-align: center;
 }
-.cid-spqAiuTMYI {
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+.cid-spRLqb6vN7 {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
   background-image: url("https://clientenogit.github.io/altaecommerce/banners/123.png");
   background-position: center;
   background-repeat: round !important;
   background-size: auto !important;
 }
 @media (min-width: 900px){
-  .cid-spqAiuTMYI{
+  .cid-spRLqb6vN7{
     display: none !important;
   }
 }
-.cid-spqAiuTMYI .mbr-overlay {
+.cid-spRLqb6vN7 .mbr-overlay {
   z-index: 1;
 }
 @keyframes slideUp {
@@ -1578,79 +1567,79 @@ a {
     opacity: 1;
   }
 }
-.cid-spqAiuTMYI .animacaolpl {
+.cid-spRLqb6vN7 .animacaolpl {
   animation: 1.6s ease-out 0s 1 slideUp;
 }
 @media (min-width: 992px) {
-  .cid-spqAiuTMYI .carousel {
+  .cid-spRLqb6vN7 .carousel {
     min-height: 400px;
   }
-  .cid-spqAiuTMYI .carousel img {
+  .cid-spRLqb6vN7 .carousel img {
     max-height: 400px;
     object-fit: contain;
   }
 }
-.cid-spqAiuTMYI .letrasperson {
+.cid-spRLqb6vN7 .letrasperson {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #ffffff;
   color: rgba(0, 0, 0, 0);
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 900;
   text-transform: uppercase;
 }
-.cid-spqAiuTMYI .foto {
+.cid-spRLqb6vN7 .foto {
   width: 100% !important;
 }
 @media (max-width: 991px) and (min-width: 768px) {
-  .cid-spqAiuTMYI .carousel {
+  .cid-spRLqb6vN7 .carousel {
     min-height: 260px;
   }
-  .cid-spqAiuTMYI .carousel img {
+  .cid-spRLqb6vN7 .carousel img {
     max-height: 260px;
     object-fit: contain;
   }
 }
 @media (max-width: 767px) {
-  .cid-spqAiuTMYI .carousel {
+  .cid-spRLqb6vN7 .carousel {
     min-height: 220px;
   }
-  .cid-spqAiuTMYI .carousel img {
+  .cid-spRLqb6vN7 .carousel img {
     max-height: 220px;
     object-fit: contain;
   }
-  .cid-spqAiuTMYI .container .carousel-control {
+  .cid-spRLqb6vN7 .container .carousel-control {
     margin-bottom: 0;
   }
-  .cid-spqAiuTMYI .content-slider-wrap {
+  .cid-spRLqb6vN7 .content-slider-wrap {
     width: 100% !important;
   }
 }
-.cid-spqAiuTMYI .carousel,
-.cid-spqAiuTMYI .carousel-inner {
+.cid-spRLqb6vN7 .carousel,
+.cid-spRLqb6vN7 .carousel-inner {
   display: flex;
   align-items: center;
 }
-.cid-spqAiuTMYI .item-wrapper {
+.cid-spRLqb6vN7 .item-wrapper {
   width: 100%;
 }
-.cid-spqAiuTMYI .carousel-caption {
+.cid-spRLqb6vN7 .carousel-caption {
   bottom: 40px;
 }
-.cid-spqAiuTMYI .carousel-control:hover {
+.cid-spRLqb6vN7 .carousel-control:hover {
   background: #1b1b1b;
   color: #fff;
   opacity: 1;
 }
-.cid-spqAiuTMYI .mobi-mbri-arrow-next {
+.cid-spRLqb6vN7 .mobi-mbri-arrow-next {
   margin-left: 5px;
 }
-.cid-spqAiuTMYI .mobi-mbri-arrow-prev {
+.cid-spRLqb6vN7 .mobi-mbri-arrow-prev {
   margin-right: 5px;
 }
-.cid-spqAiuTMYI .container .carousel-indicators {
+.cid-spRLqb6vN7 .container .carousel-indicators {
   margin-bottom: 3px;
 }
-.cid-spqAiuTMYI .carousel-control {
+.cid-spRLqb6vN7 .carousel-control {
   top: 50%;
   width: 40px;
   height: 40px;
@@ -1660,26 +1649,27 @@ a {
   border: 2px solid #fff;
   border-radius: 50%;
   transition: all 0.3s;
+  display: none !important;
 }
-.cid-spqAiuTMYI .carousel-control.carousel-control-prev {
+.cid-spRLqb6vN7 .carousel-control.carousel-control-prev {
   left: 0;
   margin-left: -3.5rem;
 }
-.cid-spqAiuTMYI .carousel-control.carousel-control-next {
+.cid-spRLqb6vN7 .carousel-control.carousel-control-next {
   right: 0;
   margin-right: -3.5rem;
 }
 @media (max-width: 767px) {
-  .cid-spqAiuTMYI .carousel-control {
+  .cid-spRLqb6vN7 .carousel-control {
     top: auto;
     bottom: 1rem;
   }
 }
-.cid-spqAiuTMYI .carousel-indicators {
+.cid-spRLqb6vN7 .carousel-indicators {
   position: absolute;
   bottom: 0;
 }
-.cid-spqAiuTMYI .carousel-indicators li {
+.cid-spRLqb6vN7 .carousel-indicators li {
   max-width: 10px;
   height: 10px;
   width: 10px;
@@ -1691,15 +1681,15 @@ a {
   opacity: 0.5;
   transition: all 0.3s;
 }
-.cid-spqAiuTMYI .carousel-indicators li.active,
-.cid-spqAiuTMYI .carousel-indicators li:hover {
+.cid-spRLqb6vN7 .carousel-indicators li.active,
+.cid-spRLqb6vN7 .carousel-indicators li:hover {
   opacity: 0.9;
 }
-.cid-spqAiuTMYI .carousel-indicators li::after,
-.cid-spqAiuTMYI .carousel-indicators li::before {
+.cid-spRLqb6vN7 .carousel-indicators li::after,
+.cid-spRLqb6vN7 .carousel-indicators li::before {
   content: none;
 }
-.cid-spqAiuTMYI .carousel-indicators.ie-fix {
+.cid-spRLqb6vN7 .carousel-indicators.ie-fix {
   left: 50%;
   display: block;
   width: 60%;
@@ -1707,28 +1697,22 @@ a {
   text-align: center;
 }
 @media (max-width: 768px) {
-  .cid-spqAiuTMYI .carousel-indicators {
+  .cid-spRLqb6vN7 .carousel-indicators {
     display: none !important;
   }
 }
-.cid-spqAiuTMYI H4 {
+.cid-spRLqb6vN7 H4 {
   color: #ffffff;
   text-align: center;
 }
-.cid-spqAiuTMYI .mbr-section-title {
+.cid-spRLqb6vN7 .mbr-section-title {
   color: #ffffff;
   text-align: center;
 }
 .cid-soLtCVxDNS {
-  padding-top: 8rem;
-  padding-bottom: 9rem;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
   background-image: url('https://clientenogit.github.io/altaecommerce/banners/fundo-formar-especialista-digital.png');
-}
-@media (max-width: 900px){
-  .cid-soLtCVxDNS{
-    padding-bottom: 5rem !important;
-    padding-top: 5rem !important;
-  }
 }
 .cid-soLtCVxDNS .mbr-overlay {
   background-color: #ff5300;
@@ -1768,10 +1752,10 @@ a {
 }
 @media (max-width: 900px) {
   .cid-soLtCVxDNS .letrascertas {
-    font-size: 42px;
+    font-size: 40px;
   }
   .cid-soLtCVxDNS .letrasperson {
-    font-size: 42px;
+    font-size: 40px;
   }
 }
 .cid-soLtCVxDNS .botaomain {
@@ -1816,12 +1800,6 @@ a {
   padding-top: 30px;
   padding-bottom: 0px;
   background-color: #ffffff;
-}
-@media (max-width: 900px){
-  .cid-soLA75kEsB{
-    padding-bottom: 0px !important;
-    padding-top: 0  !important;
-  }
 }
 @media (max-width: 767px) {
   .cid-soLA75kEsB .media-wrap {
@@ -1882,13 +1860,8 @@ a {
 }
 .cid-sp20tt4LAM {
   padding-top: 7rem;
-  padding-bottom: 8rem;
+  padding-bottom: 2rem;
   background-image: url("https://clientenogit.github.io/altaecommerce/banners/fundo-formar-especialista-digital.png");
-}
-@media (max-width: 900px){
-  .cid-sp20tt4LAM{
-    padding-bottom: 1rem !important;
-  }
 }
 .cid-sp20tt4LAM .card-wriper {
   min-height: 220px;
@@ -1989,15 +1962,9 @@ a {
   color: #000000;
 }
 .cid-sp1XNCKYTT {
-  padding-top: 7rem;
-  padding-bottom: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
   background-image: url("https://clientenogit.github.io/altaecommerce/banners/fundo-formar-especialista-digital.png");
-}
-@media (max-width: 900px){
-  .cid-soFoyD5nVg {
-      padding-bottom: 0rem !important;
-      margin-top: -49px  !important;
-    }
 }
 .cid-sp1XNCKYTT .mbr-overlay {
   background-color: #ff5300;
@@ -2082,8 +2049,8 @@ a {
   color: #ffffff;
 }
 .cid-soLA75kEsB {
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 30px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -2499,12 +2466,8 @@ a {
 }
 .cid-sp6NazdG8M {
   padding-top: 7rem;
-  padding-bottom: 8rem;
+  padding-bottom: 2rem;
   background-image: url("https://clientenogit.github.io/altaecommerce/banners/fundo-formar-especialista-digital.png");
-}
-@media (max-width: 900px) {
-  .cid-sp6NazdG8M  {
-    padding-bottom:1rem !important  }
 }
 .cid-sp6NazdG8M .card-wriper {
   min-height: 220px;
@@ -2516,7 +2479,7 @@ a {
   justify-content: center;
   align-items: center;
   margin-bottom: -2rem;
-  background-image: url("https://clientenogit.github.io/altaecommerce/banners/fundo-formar-especialista-digital.png");
+  background-image: url("https://richardlp1.github.io/banner/fundo-formar-especialista-digital.png");
   background-position: top right;
   background-repeat: no-repeat;
   box-shadow: 0px 0px 36px 2px #7826ff;
@@ -2605,21 +2568,9 @@ a {
   color: #000000;
 }
 .cid-sp6NaAaW28 {
-  padding-top: 7rem;
-  padding-bottom: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
   background-image: url("https://clientenogit.github.io/altaecommerce/banners/fundo-formar-especialista-digital.png");
-}
-@media (max-width: 900px){
-  .cid-sp1XNCKYTT{
-    padding-top: 5rem;
-    padding-bottom: 3rem;
-  }
-}
-@media(max-width: 900px){
-  .cid-sp6NaAaW28{
-    padding-top: 5rem;
-    padding-bottom: 3rem;
-  }
 }
 .cid-sp6NaAaW28 .mbr-overlay {
   background-color: #ff5300;
@@ -2704,15 +2655,9 @@ a {
   color: #ffffff;
 }
 .cid-sp6NaAITDs {
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 30px;
+  padding-bottom: 0px;
   background-color: #ffffff;
-}
-@media (max-width: 900px){
-  .cid-sp6NaAITDs{
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
 }
 @media (max-width: 767px) {
   .cid-sp6NaAITDs .media-wrap {
@@ -2797,8 +2742,8 @@ a {
 .cid-sp6NaCsxnn .botao {
   border-radius: 40px !important;
   background: none !important;
-  border-color: #ff5300!important;
-  color: #ff5300!important;
+  border-color: #fff!important;
+  color: #fff!important;
 }
 .cid-sp6NaCsxnn .dropdown-menu {
   padding: 0;
@@ -3127,13 +3072,8 @@ a {
 }
 .cid-sp6NT8hzat {
   padding-top: 7rem;
-  padding-bottom: 8rem;
-  background-image: url("https://clientenogit.github.io/altaecommerce/banners/fundo-formar-especialista-digital.png");
-}
-@media (max-width: 900px){
-  .cid-sp6NT8hzat{
-    padding-bottom: 1rem !important;
-  }
+  padding-bottom: 2rem;
+  background-image: url("https://richardlp1.github.io/banner/fundo-formar-especialista-digital.png");
 }
 .cid-sp6NT8hzat .card-wriper {
   min-height: 220px;
@@ -3145,7 +3085,7 @@ a {
   justify-content: center;
   align-items: center;
   margin-bottom: -2rem;
-  background-image: url("https://clientenogit.github.io/altaecommerce/banners/fundo-formar-especialista-digital.png");
+  background-image: url("https://richardlp1.github.io/banner/fundo-formar-especialista-digital.png");
   background-position: top right;
   background-repeat: no-repeat;
   box-shadow: 0px 0px 36px 2px #7826ff;
@@ -3234,15 +3174,9 @@ a {
   color: #000000;
 }
 .cid-sp6NT9rHbn {
-  padding-top: 7rem;
-  padding-bottom: 10rem;
-  background-image: url("https://clientenogit.github.io/altaecommerce/banners/fundo-formar-especialista-digital.png");
-}
-@media (max-width: 900px){
-  .cid-sp6NT9rHbn{
-    padding-top: 5rem;
-    padding-bottom: 3rem;
-  }
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  background-image: url("https://richardlp1.github.io/banner/fundo-formar-especialista-digital.png");
 }
 .cid-sp6NT9rHbn .mbr-overlay {
   background-color: #ff5300;
@@ -3327,15 +3261,9 @@ a {
   color: #ffffff;
 }
 .cid-sp6NTak8Uq {
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 30px;
+  padding-bottom: 0px;
   background-color: #ffffff;
-}
-@media (max-width: 900px) {
-  .cid-sp6NTak8Uq {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
 }
 @media (max-width: 767px) {
   .cid-sp6NTak8Uq .media-wrap {
